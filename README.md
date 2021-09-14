@@ -1,2 +1,0 @@
-# starter-svelte
-Svelte + Sass

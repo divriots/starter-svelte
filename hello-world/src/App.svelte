@@ -1,0 +1,12 @@
+<script>
+  import './styles.scss';
+
+  import SwitchTheme from '~/switch-theme';
+  
+  export let name;
+</script>
+
+<main>
+  <SwitchTheme />
+  <h1>Hello {name? name : 'World'}!</h1>
+</main>

@@ -1,0 +1,14 @@
+{
+	"name": "@backlight-dev/divriots.starter-svelte",
+	"version": "0.0.0",
+	"description": "",
+	"license": "ISC",
+	"type": "module",
+	"homepage": "{{ homepage }}",
+	"scripts": {
+		"serve": "dsd-cli serve eFLUQfY0zrR6dOuX5llT --open"
+	},
+	"devDependencies": {
+		"dsd-cli": "latest"
+	}
+}
