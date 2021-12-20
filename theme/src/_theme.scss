@@ -1,0 +1,97 @@
+/* Defaults: light */
+:root {
+  color-scheme: light;
+  --sass-color-background-body: var(--light-color-background-body);
+  --sass-color-background: var(--light-color-background);
+  --sass-color-background-alt: var(--light-color-background-alt);
+  --sass-color-selection: var(--light-color-selection);
+  --sass-color-text-main: var(--light-color-text-main);
+  --sass-color-text-bright: var(--light-color-text-bright);
+  --sass-color-text-muted: var(--light-color-text-muted);
+  --sass-color-links: var(--light-color-links);
+  --sass-color-focus: var(--light-color-focus);
+  --sass-color-border: var(--light-color-border);
+  --sass-color-code: var(--light-color-code);
+  --sass-transition-duration: var(--light-transition-duration);
+  --sass-color-button-hover: var(--light-color-button-hover);
+  --sass-color-scrollbar-thumb: var(--light-color-scrollbar-thumb);
+  --sass-color-scrollbar-thumb-hover: var(--light-color-scrollbar-thumb-hover);
+  --sass-color-form-placeholder: var(--light-color-form-placeholder);
+  --sass-color-form-text: var(--light-color-form-text);
+  --sass-color-variable: var(--light-color-variable);
+  --sass-color-highlight: var(--light-color-highlight);
+}
+
+/* OS: dark */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --sass-color-background-body: var(--dark-color-background-body);
+    --sass-color-background: var(--dark-color-background);
+    --sass-color-background-alt: var(--dark-color-background-alt);
+    --sass-color-selection: var(--dark-color-selection);
+    --sass-color-text-main: var(--dark-color-text-main);
+    --sass-color-text-bright: var(--dark-color-text-bright);
+    --sass-color-text-muted: var(--dark-color-text-muted);
+    --sass-color-links: var(--dark-color-links);
+    --sass-color-focus: var(--dark-color-focus);
+    --sass-color-border: var(--dark-color-border);
+    --sass-color-code: var(--dark-color-code);
+    --sass-transition-duration: var(--dark-transition-duration);
+    --sass-color-button-hover: var(--dark-color-button-hover);
+    --sass-color-scrollbar-thumb: var(--dark-color-scrollbar-thumb);
+    --sass-color-scrollbar-thumb-hover: var(--dark-color-scrollbar-thumb-hover);
+    --sass-color-form-placeholder: var(--dark-color-form-placeholder);
+    --sass-color-form-text: var(--dark-color-form-text);
+    --sass-color-variable: var(--dark-color-variable);
+    --sass-color-highlight: var(--dark-color-highlight);
+  }
+}
+
+/* User setting: dark */
+[color-scheme='light'] {
+  color-scheme: light;
+  --sass-color-background-body: var(--light-color-background-body);
+  --sass-color-background: var(--light-color-background);
+  --sass-color-background-alt: var(--light-color-background-alt);
+  --sass-color-selection: var(--light-color-selection);
+  --sass-color-text-main: var(--light-color-text-main);
+  --sass-color-text-bright: var(--light-color-text-bright);
+  --sass-color-text-muted: var(--light-color-text-muted);
+  --sass-color-links: var(--light-color-links);
+  --sass-color-focus: var(--light-color-focus);
+  --sass-color-border: var(--light-color-border);
+  --sass-color-code: var(--light-color-code);
+  --sass-transition-duration: var(--light-transition-duration);
+  --sass-color-button-hover: var(--light-color-button-hover);
+  --sass-color-scrollbar-thumb: var(--light-color-scrollbar-thumb);
+  --sass-color-scrollbar-thumb-hover: var(--light-color-scrollbar-thumb-hover);
+  --sass-color-form-placeholder: var(--light-color-form-placeholder);
+  --sass-color-form-text: var(--light-color-form-text);
+  --sass-color-variable: var(--light-color-variable);
+  --sass-color-highlight: var(--light-color-highlight);
+}
+
+/* User setting: dark */
+[color-scheme='dark'] {
+  color-scheme: dark;
+  --sass-color-background-body: var(--dark-color-background-body);
+  --sass-color-background: var(--dark-color-background);
+  --sass-color-background-alt: var(--dark-color-background-alt);
+  --sass-color-selection: var(--dark-color-selection);
+  --sass-color-text-main: var(--dark-color-text-main);
+  --sass-color-text-bright: var(--dark-color-text-bright);
+  --sass-color-text-muted: var(--dark-color-text-muted);
+  --sass-color-links: var(--dark-color-links);
+  --sass-color-focus: var(--dark-color-focus);
+  --sass-color-border: var(--dark-color-border);
+  --sass-color-code: var(--dark-color-code);
+  --sass-transition-duration: var(--dark-transition-duration);
+  --sass-color-button-hover: var(--dark-color-button-hover);
+  --sass-color-scrollbar-thumb: var(--dark-color-scrollbar-thumb);
+  --sass-color-scrollbar-thumb-hover: var(--dark-color-scrollbar-thumb-hover);
+  --sass-color-form-placeholder: var(--dark-color-form-placeholder);
+  --sass-color-form-text: var(--dark-color-form-text);
+  --sass-color-variable: var(--dark-color-variable);
+  --sass-color-highlight: var(--dark-color-highlight);
+}

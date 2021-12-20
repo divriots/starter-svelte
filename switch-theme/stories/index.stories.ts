@@ -1,5 +1,5 @@
-import './styles.scss';
+import '~/main/src/style.scss';
 
-import SwitchTheme from '../src/SwitchTheme.svelte';
+import { SwitchTheme } from '~/switch-theme';
 
 export const storySwitchTheme = () => SwitchTheme;

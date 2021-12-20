@@ -1,6 +1,5 @@
-import '~/main/src/light.scss';
-
-import Icon from '../src/Icon.svelte';
+import '~/main/src/style.scss';
+import { Icon } from '~/icon';
 
 export const storyIcon = () => ({
   Component: Icon,

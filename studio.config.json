@@ -3,14 +3,7 @@
     "dir": "",
     "menu": [
       "hello-world",
-      [
-        "components",
-        [
-          "button",
-          "icon",
-          "switch-theme"
-        ]
-      ],
+      ["components", ["button", "icon", "switch-theme"]],
       [
         "parts",
         [
@@ -24,19 +17,8 @@
           "typography"
         ]
       ],
-      [
-        "tokens",
-        [
-          "dark",
-          "light"
-        ]
-      ],
-      [
-        "infrastructure",
-        [
-          "main"
-        ]
-      ]
+      ["tokens", ["dark", "light", "theme"]],
+      ["infrastructure", ["main"]]
     ]
   }
 }
