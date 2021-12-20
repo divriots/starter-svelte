@@ -1,0 +1,24 @@
+:root {
+  --dark-color-background-body: #202b38;
+  --dark-color-background: #161f27;
+  --dark-color-background-alt: #1a242f;
+  --dark-color-selection: #1c76c5;
+  --dark-color-text-main: #dbdbdb;
+  --dark-color-text-bright: #fff;
+  --dark-color-text-muted: #a9b1ba;
+  --dark-color-links: #41adff;
+  --dark-color-focus: #0096bfab;
+  --dark-color-border: #526980;
+  --dark-color-code: #ffbe85;
+  --dark-color-button-hover: #324759;
+  --dark-color-scrollbar-thumb: var(--dark-color-button-hover);
+  --dark-color-scrollbar-thumb-hover: color-mod(
+    var(--dark-color-scrollbar-thumb) lightness(+8%)
+  );
+  --dark-color-form-placeholder: #a9a9a9;
+  --dark-color-form-text: #fff;
+  --dark-color-variable: #d941e2;
+  --dark-color-highlight: #efdb43;
+
+  --dark-transition-duration: 0.1s;
+}

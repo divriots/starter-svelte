@@ -1,0 +1,43 @@
+{
+ "packages": {
+  "dir": "",
+  "menu": [
+   "hello-world",
+   [
+    "components",
+    [
+     "button",
+     "icon",
+     "switch-theme"
+    ]
+   ],
+   [
+    "parts",
+    [
+     "base",
+     "code",
+     "forms",
+     "links",
+     "misc",
+     "print",
+     "range",
+     "typography"
+    ]
+   ],
+   [
+    "tokens",
+    [
+     "dark",
+     "light",
+     "theme"
+    ]
+   ],
+   [
+    "infrastructure",
+    [
+     "main"
+    ]
+   ]
+  ]
+ }
+}

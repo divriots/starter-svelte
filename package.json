@@ -1,0 +1,15 @@
+{
+  "name": "@backlight-dev/m4dz.starter-svelte",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve UpkJsnaHN7ro5AFlgsaZ --open"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "svelte": "^3.44.0"
+  }
+}
