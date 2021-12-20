@@ -1,25 +1,26 @@
 <script>
-  import Button from '~/button'
-  import Icon from '~/icon'
+  import { onMount } from 'svelte';
+  import Button from '../../button/src/Button.svelte';
+  import Icon from '../../icon/src/Icon.svelte';
 
   let dark = false;
-
-  let style;
+  let root;
 
   function switchTheme() {
     dark = !dark;
   }
 
   function updateStyle(state) {
-    style && (style.textContent = state
-      ? '@import url(../../switch-theme/dist/dark.css'
-      : '');
+    root && root.setAttribute('color-scheme', dark ? 'dark' : 'light');
   }
+
+  onMount(() => {
+    root = document.documentElement;
+  });
 
   $: updateStyle(dark);
 </script>
 
 <Button on:click={switchTheme}>
-  <Icon icon="fas-{dark? 'sun' : 'moon'}" />
-  <style bind:this={style}></style>
+  <Icon icon="fas-{dark ? 'sun' : 'moon'}" />
 </Button>
