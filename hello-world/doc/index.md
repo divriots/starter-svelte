@@ -38,9 +38,10 @@ In this quick and guided tutorial, you'll use this Design System in your local S
 3. Open your project in your IDE, and go to the file `src/routes/index.svelte`
 4. In the `<script>` tag, add the following lines to import the Design System CSS stylesheet as well as the `SwitchTheme` component
    ```js
-   import '@backlight-dev/m4dz.svelte-demo/main/dist/style.css';
-   import SwitchTheme from '@backlight-dev/m4dz.svelte-demo/switch-theme/src/SwitchTheme.svelte';
+   import '@backlight-dev/[workspace].[project]/main/dist/style.css';
+   import SwitchTheme from '@backlight-dev/[workspace].[project]/switch-theme/src/SwitchTheme.svelte';
    ```
+   keep in mind to replace `[workspace]` and `[project]` by the name of yours. Have a look at the `node_modules/@backlight-dev` folder.
 5. Above the `<Counter />` component in the markup, add the `<SwitchTheme />` from the Design System
 
 In your browser the Switch theme button is now visible above the Counter. Click on it. Your theme switches from light to dark.
