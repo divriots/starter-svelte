@@ -1,4 +1,4 @@
-import '~/main/src/style.scss';
+//import '~/main/src/style.scss';
 import { Button } from '~/button/index.js';
 
 export const storyButton = () => Button;
