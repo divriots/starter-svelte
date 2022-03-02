@@ -16,13 +16,13 @@ can load it from the root package, or from the svelte file itself:
 
 ```svelte
 <script>
-import { Icon } from '~/icon';
+import { Icon } from '@backlight-dev/divriots.starter-svelte/icon';
 </script>
 ```
 
 ```svelte
 <script>
-import Icon from '~/button/src/Icon.svelte';
+import Icon from '@backlight-dev/divriots.starter-svelte/button/src/Icon.svelte';
 </script>
 ```
 

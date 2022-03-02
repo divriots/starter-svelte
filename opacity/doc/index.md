@@ -11,7 +11,7 @@ Opacity tokens are declared in the `_opacity.scss@tokens` Sass mixin,
 ready to be embedded in your favorite selector:
 
 ```scss
-@use '~/opacity/src/_opacity.scss';
+@use '@backlight-dev/divriots.starter-svelte/opacity/src/_opacity.scss';
 
 :where(html) {
   @include opacity.tokens;

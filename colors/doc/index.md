@@ -11,7 +11,7 @@ Colors tokens are declared in the `_colors.scss@tokens` Sass mixin,
 ready to be embedded in your favorite selector:
 
 ```scss
-@use '~/colors/src/_colors.scss';
+@use '@backlight-dev/divriots.starter-svelte/colors/src/_colors.scss';
 
 :where(html) {
   @include colors.tokens;

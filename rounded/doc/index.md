@@ -11,7 +11,7 @@ Rounded tokens are declared in the `_rounded.scss@tokens` Sass mixin,
 ready to be embedded in your favorite selector:
 
 ```scss
-@use '~/rounded/src/_rounded.scss';
+@use '@backlight-dev/divriots.starter-svelte/rounded/src/_rounded.scss';
 
 :where(html) {
   @include rounded.tokens;

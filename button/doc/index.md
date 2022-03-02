@@ -13,13 +13,13 @@ can load it from the root package, or from the svelte file itself:
 
 ```svelte
 <script>
-import { Button } from '~/button';
+import { Button } from '@backlight-dev/divriots.starter-svelte/button';
 </script>
 ```
 
 ```svelte
 <script>
-import Button from '~/button/src/Button.svelte';
+import Button from '@backlight-dev/divriots.starter-svelte/button/src/Button.svelte';
 </script>
 ```
 

@@ -11,7 +11,7 @@ Borders tokens are declared in the `_borders.scss@tokens` Sass mixin,
 ready to be embedded in your favorite selector:
 
 ```scss
-@use '~/borders/src/_borders.scss';
+@use '@backlight-dev/divriots.starter-svelte/borders/src/_borders.scss';
 
 :where(html) {
   @include borders.tokens;
