@@ -4,9 +4,9 @@ import { html } from 'lit';
 import { unsafeHTML } from 'lit/directives/unsafe-html.js';
 
 import '@divriots/dockit-core/style.css';
-import '~/dockit/_dockit.scss';
+import '~/dockit/src/_dockit.scss';
 
-import logoSVG from '~/dockit/logo.svg?raw';
+import logoSVG from '~/dockit/src/logo.svg?raw';
 
 export default {
   layout: (content, context) => html`

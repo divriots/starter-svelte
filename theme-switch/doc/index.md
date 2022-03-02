@@ -15,13 +15,13 @@ You can load it from the root package, or from the svelte file itself:
 
 ```svelte
 <script>
-import { ThemeSwitch } from '~/theme-switch';
+import { ThemeSwitch } from '@backlight-dev/divriots.starter-svelte/theme-switch';
 </script>
 ```
 
 ```svelte
 <script>
-import ThemeSwitch from '~/button/src/ThemeSwitch.svelte';
+import ThemeSwitch from '@backlight-dev/divriots.starter-svelte/button/src/ThemeSwitch.svelte';
 </script>
 ```
 

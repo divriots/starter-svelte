@@ -11,7 +11,7 @@ Spacing tokens are declared in the `_spacing.scss@tokens` Sass mixin,
 ready to be embedded in your favorite selector:
 
 ```scss
-@use '~/spacing/src/_spacing.scss';
+@use '@backlight-dev/divriots.starter-svelte/spacing/src/_spacing.scss';
 
 :where(html) {
   @include spacing.tokens;

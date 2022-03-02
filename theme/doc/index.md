@@ -6,8 +6,8 @@ you to initialize all of the tokens as long as two themes variants:
 
 ## Setup
 
-Add the SCSS `@use "~/theme/src/theme";` instruction in your SCSS
-file to load the mixin.
+Add the SCSS `@use "@backlight-dev/divriots.starter-svelte/theme/src/theme";`
+instruction in your SCSS file to load the mixin.
 
 ## Usage
 
@@ -57,6 +57,8 @@ its children (usually on `<body>` node).
 ## Creating a theme variant
 
 Themes files are located in the package
-`~/theme/src/_theme-name.scss`. To create a new theme, add a new
-theme file following the existing format, and include your new theme
-in the main `~/theme/src/_theme.scss`.
+`@backlight-dev/divriots.starter-svelte/theme/src/_theme-name.scss`.
+
+To create a new theme, add a new theme file following the existing format,
+and include your new theme in the main
+`@backlight-dev/divriots.starter-svelte/theme/src/_theme.scss`.
