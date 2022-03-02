@@ -1,16 +1,16 @@
 {
-  "name": "@backlight-dev/divriots.starter-svelte",
+  "name": "@backlight-dev/m4dz.svelte-kzrjj4lc",
   "version": "1.0.2",
   "description": "",
   "license": "MIT",
   "type": "module",
   "homepage": "{{ homepage }}",
   "scripts": {
-    "serve": "npx backlight@latest serve elVBDiiiouYQjeQ9fReN --open"
+    "serve": "npx backlight@latest serve 7RybxUNAns1V14dDGiYl --open"
   },
   "devDependencies": {
-    "@divriots/dockit-core": "^0.1.9",
-    "lit-html": "^1.4.1"
+    "@divriots/dockit-core": "^0.7.2",
+    "lit": "^2.0.0"
   },
   "dependencies": {
     "svelte": "^3.44.0"

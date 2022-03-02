@@ -1,14 +1,21 @@
 <script>
-  import '@fortawesome/fontawesome-free/css/all.css';
-
   export let icon;
-
-  let idx = $$props.icon.indexOf('-');
-
-  $: collection = $$props.icon.slice(0, idx);
-  $: name = $$props.icon.slice(idx+1);
+  $: styles = `--icon: url(https://api.iconify.design/${icon}.svg)`;
 </script>
 
-<i class="{collection} fa-{name}">
+<i class="icon" style="{styles}">
   <slot />
 </i>
+
+<style lang="scss">
+  @use "~/theme/src/theme";
+  @include theme.default(true);
+
+  i {
+    min-width: 100%;
+    min-height: 100%;
+    background: var(--colors-text);
+    mask: var(--icon) center / contain no-repeat;
+    -webkit-mask: var(--icon) center / contain no-repeat;
+  }
+</style>

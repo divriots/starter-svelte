@@ -2,23 +2,31 @@
   "packages": {
     "dir": "",
     "menu": [
-      "hello-world",
-      ["components", ["button", "icon", "switch-theme"]],
       [
-        "parts",
+        "components",
         [
-          "base",
-          "code",
-          "forms",
-          "links",
-          "misc",
-          "print",
-          "range",
-          "typography"
+          "button",
+          "icon",
+          "theme-switch"
         ]
       ],
-      ["tokens", ["dark", "light", "theme"]],
-      ["infrastructure", ["main"]]
+      [
+        "tokens",
+        [
+          "colors",
+          "rounded",
+          "borders",
+          "spacing",
+          "opacity",
+          "theme"
+        ]
+      ],
+      [
+        "infrastructure",
+        [
+          "dockit"
+        ]
+      ]
     ]
   }
 }

@@ -1,9 +1,12 @@
-import '~/main/src/style.scss';
+import './styles.scss';
 import { Icon } from '~/icon';
+import IconWithText from './IconWithText.svelte';
 
 export const storyIcon = () => ({
   Component: Icon,
   props: {
-    icon: 'fab-font-awesome',
+    icon: 'ph:moon-fill',
   },
 });
+
+export const storyIconWithSlot = () => IconWithText;
