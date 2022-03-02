@@ -1,7 +1,3 @@
-```js script
-import '~/dockit';
-```
-
 # Svelte Starter Kit
 
 This Starter Kit contains a simple Svelte-based Design System for your
