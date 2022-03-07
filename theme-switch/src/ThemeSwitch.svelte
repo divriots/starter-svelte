@@ -3,11 +3,7 @@
   import { Button } from '../../button';
   import { Icon } from '../../icon';
 
-  let mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
-  let userDark = mq.matches;
-  let osDark = mq.matches;
-  let isUserSet = false;
-  let root;
+  let mq, userDark, osDark, isUserSet, root;
 
   function switchTheme() {
     isUserSet = true;
@@ -22,6 +18,10 @@
   }
 
   onMount(() => {
+    mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+    userDark = mq.matches;
+    osDark = mq.matches;
+    isUserSet = false;
     root = document.documentElement;
     mq.addEventListener('change', () => osDark = mq.matches);
   });
