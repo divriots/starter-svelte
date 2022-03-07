@@ -1,7 +1,7 @@
 <script>
   import { onMount } from 'svelte';
-  import { Button } from '~/button';
-  import { Icon } from '~/icon';
+  import { Button } from '../../button';
+  import { Icon } from '../../icon';
 
   let mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
   let userDark = mq.matches;
@@ -37,7 +37,7 @@
 </div>
 
 <style lang="scss">
-  @use "~/theme/src/theme";
+  @use "../../theme/src/theme";
   @include theme.default(true);
 
   .wrapper {

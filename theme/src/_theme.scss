@@ -1,8 +1,8 @@
-@use '~/borders/src/borders';
-@use '~/colors/src/colors';
-@use '~/opacity/src/opacity';
-@use '~/rounded/src/rounded';
-@use '~/spacing/src/spacing';
+@use '../../borders/src/borders';
+@use '../../colors/src/colors';
+@use '../../opacity/src/opacity';
+@use '../../rounded/src/rounded';
+@use '../../spacing/src/spacing';
 
 @use './light';
 @use './dark';

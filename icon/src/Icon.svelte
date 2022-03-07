@@ -8,7 +8,7 @@
 </i>
 
 <style lang="scss">
-  @use "~/theme/src/theme";
+  @use "../../theme/src/theme";
   @include theme.default(true);
 
   i {
