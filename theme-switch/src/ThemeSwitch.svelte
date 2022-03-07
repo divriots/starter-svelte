@@ -1,7 +1,7 @@
 <script>
   import { onMount } from 'svelte';
-  import { Button } from '../../button';
-  import { Icon } from '../../icon';
+  import Button from '../../button/src/Button.svelte';
+  import Icon from '../../icon/src/Icon.svelte';
 
   let mq, userDark, osDark, isUserSet, root;
 
